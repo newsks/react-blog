@@ -30,7 +30,8 @@ export default function Router({ isAuthenticated }: RouterProps) {
           <>
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignUpPage />} />
-            <Route path="*" element={<LoginPage />} />
+            <Route path="/*" element={<LoginPage />} />
+            <Route path="/" element={<Home />} />
           </>
         )}
       </Routes>

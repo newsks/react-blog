@@ -180,9 +180,36 @@ footer a {
   padding: 20px 10px;
 }
 
+.post__utils-box .post__edit {
+  color: gray;
+  text-decoration: none;
+}
+.post__utils-box .post__edit a:hover {
+  color: black;
+}
 .post__edit a {
   text-decoration: none;
   color: gray;
+}
+
+.post__no-post {
+  padding: 100px 24px;
+  text-align: center;
+  color: gray;
+}
+
+.post__text--pre-wrap {
+  white-space: pre-wrap;
+}
+
+.post__category {
+  color: gray;
+  border: 1px solid #c0c0c0;
+  background-color: #f8f8f8;
+  padding: 0px 10px;
+  border-radius: 10px;
+  margin-right: 5px;
+  font-size: 12px;
 }
 /* profile */
 .profile__box {
@@ -433,6 +460,14 @@ input:checked + .carousel__slide-container .nav label {
 
 .form__error {
   color: red;
+}
+
+.form select {
+  border: 1px solid lightgrey;
+  max-width: 680px;
+  height: 40px;
+  padding: 0px 20px;
+  border-radius: 0.3rem;
 }
 
 /* loader */
