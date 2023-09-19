@@ -93,7 +93,9 @@ export default function PostList({
 
   useEffect(() => {
     getPosts();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [activeTab]);
+
   return (
     <>
       {hasNavigation && (
