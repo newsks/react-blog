@@ -51,7 +51,7 @@ export default function Comments({ post, getPost }: CommentsProps) {
               second: "2-digit",
             }),
           });
-          // 문서 업데이트
+          // 문서 업데이트 완료
           await getPost(post.id);
         }
       }
