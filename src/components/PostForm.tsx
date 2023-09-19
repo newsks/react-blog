@@ -60,7 +60,6 @@ export default function PostForm() {
     }
   };
 
-  // console.log(title, summary, content);
   const onChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement
